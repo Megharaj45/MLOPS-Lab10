@@ -1,0 +1,18 @@
+{
+    "experiment_name": "mediqueue-wait-time-min",
+    "models": [
+        {
+            "name": "RandomForest",
+            "mae": 6.438000000000007,
+            "rmse": 7.349079974255287
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 8.117189721531735,
+            "rmse": 9.726108311655848
+        }
+    ],
+    "best_model": "RandomForest",
+    "best_metric_name": "rmse",
+    "best_metric_value": 7.349079974255287
+}

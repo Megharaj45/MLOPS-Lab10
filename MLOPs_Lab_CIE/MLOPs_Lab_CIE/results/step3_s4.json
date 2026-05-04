@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/heartbeat",
+  "predict_endpoint": "/estimate",
+  "port": 8000,
+  "health_response": {
+    "alive": true,
+    "service": "MediQueue wait_time_min API"
+  },
+  "test_input": {
+    "patients_ahead": 21,
+    "staff_count": 11,
+    "is_emergency": 0,
+    "dept_load": 2
+  },
+  "prediction": 37.720400000000005
+}

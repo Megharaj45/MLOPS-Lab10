@@ -1,0 +1,13 @@
+{
+    "search_type": "grid",
+    "n_folds": 5,
+    "total_trials": 12,
+    "best_params": {
+        "max_depth": 5,
+        "max_features": "sqrt",
+        "n_estimators": 200
+    },
+    "best_mae": 2.6125854269841278,
+    "best_cv_mae": 7.473442886528652,
+    "parent_run_name": "tuning-mediqueue"
+}
